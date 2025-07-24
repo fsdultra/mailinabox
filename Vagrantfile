@@ -17,9 +17,9 @@ Vagrant.configure("2") do |config|
     # machine figure out its own public IP.
     export NONINTERACTIVE=1
     export PUBLIC_IP=auto
-    export PUBLIC_IPV6=auto
+    #export PUBLIC_IPV6=auto
     export PRIMARY_HOSTNAME=auto
-    #export SKIP_NETWORK_CHECKS=1
+    export SKIP_NETWORK_CHECKS=1
 
     # Start the setup script.
     cd /vagrant
